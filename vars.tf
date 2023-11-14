@@ -7,7 +7,7 @@ variable "machine_name" {
 }
 	
 variable "key" {
-  default = "{ secrets.DOCKERHUB_SERVICE_ACCOUNT_KEY }"
+  default = "{ secrets.SERVICE_ACCOUNT_KEY }"
 }
 
 variable "region" {
