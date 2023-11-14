@@ -16,7 +16,6 @@ resource "google_compute_network" "my_network" {
   name = "my-network"
 }
 
-
 resource "google_compute_subnetwork" "my_subnetwork" {
   name          = "my-subnetwork"
   network       = google_compute_network.my_network.self_link
