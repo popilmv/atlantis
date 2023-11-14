@@ -11,7 +11,6 @@ terraform {
     prefix  = "terraform-bucket-27"           
   }
 }
-
 resource "google_compute_network" "my_network" {
   name = "my-network"
 }
