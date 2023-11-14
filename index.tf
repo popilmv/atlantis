@@ -12,6 +12,7 @@ terraform {
   }
 }
 
+
 resource "google_compute_network" "my_network" {
   name = "my-network"
 }
