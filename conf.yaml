@@ -1,0 +1,5 @@
+atlantis-url: "http://193.169.189.127" 
+gh-user: 'popilmv'
+gh-token: "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"
+gh-webhook-secret: "aorgandfmkrbjpgtcalmlyrrmevkoqcylvgyxvhzjdhdnwgdugqdxmgrrlexvotbwlynwhgmnosaocpaqtczekdjtshjiavdsmdcqejjcvfpaeywubhuxdqzzhawiiaz" 
+repo-allowlist: "github.com/popilmv/atlantis"
