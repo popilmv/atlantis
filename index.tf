@@ -12,8 +12,8 @@ terraform {
   }
 }
 
-resource "google_compute_network" "default" {
-  name = "default
+resource "google_compute_network" "my_network" {
+  name = "my_network"
 }
 
 
