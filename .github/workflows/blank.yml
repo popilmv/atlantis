@@ -6,14 +6,13 @@ on:
       - '*'
 
 jobs:
-  atlantis_plan:
+  plan:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
-
-    - name: Run Atlantis Plan
-      run: |
-       echo atlantis plan
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: yarn install
+      - run: yarn atlantis plan
 
