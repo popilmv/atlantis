@@ -4,7 +4,7 @@ provider "google" {
   region      = var.region      
 }
 
-# backend in GCS.
+# backend in GCS
 terraform {
   backend "gcs" {
     bucket  = "my-terraform-bucket-27"  #name
