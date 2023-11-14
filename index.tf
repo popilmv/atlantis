@@ -24,7 +24,6 @@ resource "google_compute_subnetwork" "my_subnetwork" {
   region      = "us-central1"
 }
 
-
 resource "google_compute_instance" "homework" {
   name = var.machine_name
   machine_type = var.machine_type  
