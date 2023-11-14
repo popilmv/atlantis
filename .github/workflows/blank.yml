@@ -15,5 +15,5 @@ jobs:
 
     - name: Run Atlantis Plan
       run: |
-       docker run -p -v conf.yaml:/etc/atlantis/conf.yaml ghcr.io/runatlantis/atlantis:dev-alpine-a793620 atlantis server --config /etc/atlantis/conf.yaml && atlantis plan
+       docker run -v conf.yaml:/etc/atlantis/conf.yaml ghcr.io/runatlantis/atlantis:dev-alpine-a793620 atlantis server --config /etc/atlantis/conf.yaml && atlantis plan
 
