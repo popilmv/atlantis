@@ -15,4 +15,4 @@ jobs:
 
     - name: Run Atlantis Plan
       run: |
-      atlantis plan
+        atlantis plan
