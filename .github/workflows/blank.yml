@@ -1,0 +1,18 @@
+name: Atlantis Plan
+
+on:
+  pull_request:
+    types:
+      - synchronize
+
+jobs:
+  atlantis_plan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Run Atlantis Plan
+      run: |
+        atlantis plan
